@@ -19,7 +19,21 @@ Z-scores were used to measure significant  change between the future climatology
 
 
 ## Results
+#### Recent 
+The most striking result from looking a recent and future trends is how little precipitation is changing. The graph below shows statistically significant change for monthly temperature and precipitation across Gabon. For each 1km pixel across the geographic area of Gabon a time-series mann-kendall test was performed for the recent 35 year time-series. The areas in purple show significant change at 95% confidence level (p-value < 0.05). For temperature, all months have statistically significant change somewhere, if not entirely, across the country. Precipitation, however, shows hardley any change across the geographic region and across all months.  
+ 
 ![significance](https://github.com/sauer3/Gabon-Climate-Exposure/blob/master/charts/mann-kendall.png)
+
+#### Future
+For future projections it's useful to look at where models agree on the magnitude and direction of change. The graph below shows the average change in annual total precipitation (mm) and average temperature (C) for Gabon for each of 10 GCMs. All GCMs agree that temperatures are getting warmer but they disagree on whether precipiation is increasing or decreasing. 
+
+![model-projections](https://github.com/sauer3/Gabon-Climate-Exposure/blob/master/charts/model_projections.png)
+
+The graph below also investigates model agreement of direction and magnitude of change but at a higher temporal resolution - showing change across months of the year. The metric used to measure change is the z-score shown on the y-axis. These units represent how many standard deviations the future projection is from the mean of the recent historical time-period. The z-score values for precipitation are very small showing that projected future change for all models is well within the historical range of variability. The z-score values for temperature get up to 9 standard deviations which indicates extreme change and a relatively novel climate. These results for future projections are consistant with the recent trends for precipitation and temperature across the 1979-2013 year time-series. 
+
+The graph also shows that models agree more or less for certain seasons. For precipitation, models agree more for the dry season than they do for the wet season. For temperature, models generally agree across all months for the direction of change but vary in magnitude. 
+
+![monthly-zscores](https://github.com/sauer3/Gabon-Climate-Exposure/blob/master/charts/monthly-zscores-models.png)
 
 
 
