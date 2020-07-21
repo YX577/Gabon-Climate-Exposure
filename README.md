@@ -2,7 +2,7 @@
 
 
 ## Overview
-This repo provides scripts for extracting, analyzing, and visualizing temperature and precipitation data for the African country of Gabon.
+This repo provides scripts for extracting, analyzing, and visualizing temperature and precipitation change for the African country of Gabon.
 
 ## Workflow
 1. 01-Pre-processing - read data in from PostGIS and join it with other relational tables in the dataset. This was also a first step to look at the data.
