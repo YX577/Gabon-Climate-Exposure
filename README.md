@@ -19,7 +19,7 @@ Z-scores were used to measure significant  change between the future climatology
 
 
 ## Results
-![significance](mann-kendall.png)
+![significance](https://github.com/sauer3/Gabon-Climate-Exposure/blob/master/charts/mann-kendall.png)
 
 
 
