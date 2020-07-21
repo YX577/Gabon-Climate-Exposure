@@ -5,11 +5,9 @@
 This repo provides scripts for extracting, analyzing, and visualizing temperature and precipitation change for the African country of Gabon.
 
 ## Workflow
-1. 01-Pre-processing - read data in from PostGIS and join it with other relational tables in the dataset. This was also a first step to look at the data.
-2. 02-create-features - write functions to calculate each vegetation index based on spectral bands. For each veg index calculate the mean and standard deviation across time and save as a multiband raster. I used 6 different vegetation inices. 
-3. 03-modeling-binary - model and hyperparameter selection using grid search and cross validation using 4 different kinds of models: logistic regression, random forests, support vector classification, and k-nearest neighbors.
-4. I included a multi-class notebook to show that I tried!
-5. Visualization is not included because it was done in a variety of programs, mainly QGIS and Tableau.
+1. Download climate data - the [CHELSA](http://chelsa-climate.org/downloads/) climate dataset was used for recent time-series (1979-2013) and future projections for 10 global climate models for RCP 8.5 2061-2080 climatology. 
+2. Analysis - calculate metrics to measure recent and future trends for the region of Gabon.  
+3. Visualization - Map and graph results. 
 
 ## Metrics used for Measuring Change in Climate
 #### Mann-Kendall
